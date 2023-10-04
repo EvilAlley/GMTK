@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 6709839096952134397}
   m_Layer: 0
   m_Name: Pipe
-  m_TagString: Untagged
+  m_TagString: Logic
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -48,7 +48,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 5
-  deadZone: -15
+  deadZone: -25
 --- !u!1 &2940320654913314177
 GameObject:
   m_ObjectHideFlags: 0
@@ -59,6 +59,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6856955083722952539}
   - component: {fileID: 8006409508021699441}
+  - component: {fileID: 7095844884122142796}
   m_Layer: 0
   m_Name: Middle
   m_TagString: Untagged
@@ -113,7 +114,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.27550197, y: 0}
+  m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -126,6 +127,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2.9075928, y: 14.010071}
   m_EdgeRadius: 0
+--- !u!114 &7095844884122142796
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2940320654913314177}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9694b393e062dae44a63066e69d1a4f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  logic: {fileID: 0}
 --- !u!1 &5307395158699583312
 GameObject:
   m_ObjectHideFlags: 0
