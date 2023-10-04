@@ -31,3 +31,5 @@ public class birdscript : MonoBehaviour
         birdIsAlive = false;
     }
 }
+
+//test to see if github adds this
